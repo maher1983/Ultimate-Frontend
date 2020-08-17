@@ -18,6 +18,39 @@ gulp watch
 
 // Github
 λ git config --global user.name
+
 λ git config --global user.email
 
 λ ssh-keygen -t rsa -b 4096 -C "maher1983@hotmail.com"
+
+C:\Users\IT--2020\.ssh
+
+λ cat id_rsa.pub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD7qZRmu3S5cT8gqLQ3NfUuWSG+GbmOU4ewJ5s7RCEvQ8VDNlDUhylki+tiZ1uffkOldL1xc8x41DnW6UpyYimx6q57tHOH858ClqEgjftJT4iJiKtcaQBd8y+xdV06FFc/MlFD/z/SMN4PNmzvVWtw3gE7pDAv7ynCdTRGx13or6mDNHrYbawGxdwFZKVY4h2Avy1aOjJiDLnw0YLtcd4FNZDYva7pAKQVgDMmA4OSz2kbXVhEPH+lWqNtVQUHiOc/56jDlgNZrOLst1MKoNkpp+0PuZibmRS+4BSQVUYkzD0zss+TjVgQwexY6mWmnni+8/hFRidfyTQu4g2c46EfixMY9vBtsCEJLrnntSkQviSvNeJWEcezggXeqoQqI7qDP1/1HJxxxA8zdQmznFRU1EA8wCBjKeWK5kx9Vlls8oRwxZB8CcgnesGpp2Mr4rPQ5TDfMUCHvF2qIhO3J6HufnwwqceIiVnT9uYeExmia6J1zZOnCexiI/ip7Nw+zfWgbbAvrXJoHzpj3LXpYD7lnz8YlFqs9Ni5FboY6FzfSLA7HHixC8N5h+gRO5FmPdiymYCghtC4dr8YWFUah7Ax9uZCKXBpmwDHTAlxp/3NP35TBr98FDsJl2g/ZXhJYfDN9Zg2pXl13EnO/PKfx6JiNqkeFkMuRxiOGpP9IZm3yQ== maher1983@hotmail.com
+
+λ ssh -T git@github.com
+
+λ git init
+
+λ git status
+
+λ touch .gitignore 
+
+λ git add *
+
+λ git commit -m "Lesson From 1 To 9"
+
+λ git remote add origin git@github.com:maher1983/Ultimate-Frontend.git
+
+λ git pull origin master --rebase
+
+λ git push origin master
+
+
+
+
+
+
+
+

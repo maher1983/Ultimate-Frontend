@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 2000px;
+    
 }
 .page {
     min-height: 100vh;
@@ -12,5 +12,8 @@ body {
         transition: .3s;
         float: right;
         will-change: width;
+        &.no-sidebar {
+            width: 100%;
+        }
     }
 }
