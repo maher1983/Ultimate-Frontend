@@ -1,0 +1,23 @@
+ λ npm i gulp@3.9.1 -g
+
+ λ npm init
+
+ λ cat package.json
+
+ λ npm i gulp@3.9.1 --save-dev
+
+ λ gulp -v
+
+ λ touch gulpfile.js
+ 
+λ  npm i gulp-concat gulp-sass gulp-autoprefixer gulp-pug gulp-livereload gulp-notify gulp-sourcemaps gulp-minify --save-dev
+
+λ npm i static-server
+
+gulp watch
+
+// Github
+λ git config --global user.name
+λ git config --global user.email
+
+λ ssh-keygen -t rsa -b 4096 -C "maher1983@hotmail.com"
