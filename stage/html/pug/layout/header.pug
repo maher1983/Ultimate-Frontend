@@ -1,7 +1,7 @@
 .header 
     i.fa.fa-exchange-alt.fa-lg.toggle-sidebar
     .dropdown.notifications-container
-        i.fa.fa-bell.fa-lg.toggle-notifications#notifications(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+        i.fa.fa-bell.fa-lg.header-icon.toggle-notifications#notifications(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
         .dropdown-menu(aria-labelledby='notifications')
             .noti-head
                 | Notifications
@@ -21,6 +21,7 @@
                         i.fa.fa-thumbtack.fa-lg
                         | You Got Email From Bla Bla
                     li
-                        i.fa.fa-envelope.fa-lg
+                        i.far.fa-envelope.fa-lg
                         | You Got Email From Bla Bla
             .noti-foot.text-center: a(href="#") View All Notifications
+        i.fas.fa-arrows-alt.fa-lg.toggle-fullscreen.header-icon
